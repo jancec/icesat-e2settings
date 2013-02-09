@@ -255,6 +255,9 @@ transponders
 011a2f26:07e3:0002
 	s 12070000:27500000:0:2:282:2:0
 /
+011a31be:0001:ffff
+	s 12734000:2965000:0:3:282:2:0
+/
 011aad77:00b0:00b1
 	s 11639000:1000000:1:5:282:2:0
 /
@@ -331,7 +334,7 @@ transponders
 	s 12304000:27500000:0:4:235:2:0:1:2:0:2
 /
 00eb0000:0ca1:0003
-	s 12343000:27500000:0:4:235:2:0:1:2:0:2
+	s 12344000:27500000:0:4:235:2:0:1:2:0:2
 /
 00eb0000:0ca3:0003
 	s 12382000:30000000:0:6:235:2:0:1:2:0:2
@@ -354,17 +357,11 @@ transponders
 00ebad50:1000:2000
 	s 11600000:2172000:1:3:235:2:0
 /
-00ebad99:0027:ffff
-	s 11673000:3215000:1:3:235:2:0
+00ebad8b:4321:00eb
+	s 11659000:3655000:1:3:235:2:0:1:2:0:2
 /
-00ebb187:0001:ffff
-	s 12679000:4433000:1:3:235:2:0
-/
-00ebb18d:4321:00eb
-	s 12685000:4940000:1:3:235:2:0:1:2:0:2
-/
-00ebb1a7:00b0:00b1
-	s 12711000:4940000:1:3:235:2:0:1:2:0:2
+00ebb176:0001:0001
+	s 12662000:555000:1:3:235:2:0
 /
 00c00000:03eb:0001
 	s 11243000:22000000:0:4:192:2:0
@@ -957,7 +954,7 @@ transponders
 00820000:2db4:fbff
 	s 10853000:29900000:0:4:130:2:0
 /
-00822c6d:0001:ffff
+00822c6d:007b:0001
 	s 11373000:29900000:0:4:130:2:0
 /
 0082acce:0578:013e
@@ -1015,10 +1012,7 @@ DCS1
 p:BSkyB,c:031fff
 1f48:011a0000:07d4:0002:130:0
 STB Dev App
-p:BSkyB,c:010fae,c:030fae
-1f49:011a0000:07d4:0002:130:0
-TV Highlights
-p:BSkyB,c:000fd4,c:010fd6,c:030fd4
+p:BSkyB
 1f4a:011a0000:07d4:0002:1:0
 8010
 p:BSkyB
@@ -1054,7 +1048,7 @@ Games Slot 25
 p:BSkyB,c:010db2,c:030db1
 1fef:011a0000:07d4:0002:130:0
 Vegas 3 Card poker
-p:BSkyB,c:031fff
+p:BSkyB
 1ff7:011a0000:07d4:0002:130:0
 Portal Video 5
 p:BSkyB
@@ -1220,15 +1214,6 @@ p:BSkyB,c:000925,c:010926,c:020928,c:030925
 1843:011a0000:07d9:0002:1:0
 QUEST
 p:BSkyB,c:000929,c:01092a,c:02092b,c:030929
-1857:011a0000:07d9:0002:1:0
-D SD
-p:BSkyB,c:000901,c:010902,c:020904,c:030901
-1858:011a0000:07d9:0002:1:0
-D SD +1
-p:BSkyB,c:00090d,c:01090e,c:020910,c:03090d
-1859:011a0000:07d9:0002:1:0
-D RT
-p:BSkyB,c:000909,c:01090a,c:02090c,c:030909
 1b59:011a0000:07da:0002:1:0
 MTV
 p:BSkyB,c:000913,c:010902,c:020914,c:030901
@@ -1613,6 +1598,9 @@ p:BSkyB
 1f4b:011a0000:07e7:0002:130:0
 Installation Survey
 p:BSkyB,c:031fff
+1fa7:011a0000:07e7:0002:130:0
+Vegas DOND
+p:BSkyB
 0ee7:011a0000:07e8:0002:25:0
 Sky MdnGrtsHD
 p:BSkyB,c:000203,c:020904,c:030203,c:040297,c:050001
@@ -1675,7 +1663,7 @@ SNRNEW
 p:BSkyB,c:01028a,c:031ffe
 1293:011a0000:07ea:0002:2:0
 SNRNEWv
-p:BSkyB,c:000226,c:031ffe
+p:BSkyB
 13f1:011a0000:07ea:0002:130:0
 Sky2
 p:BSkyB,f:0001,c:000207,c:010287,c:020247,c:031ffe
@@ -1691,14 +1679,11 @@ p:BSkyB,c:000207,c:010287,c:020247,c:031ffe
 1f44:011a0000:07ea:0002:130:0
 Games Slot 13
 p:BSkyB,c:0109d5,c:0309d5
-1fa7:011a0000:07ea:0002:130:0
-Vegas DOND
-p:BSkyB
+1f49:011a0000:07ea:0002:130:0
+TV Highlights
+p:BSkyB,c:000fd4,c:010fd5,c:030fd4
 1fd0:011a0000:07ea:0002:130:0
 launchpad
-p:BSkyB,c:031fff
-2003:011a0000:07ea:0002:130:0
-Movie Quiz
 p:BSkyB,c:031fff
 201a:011a0000:07ea:0002:130:0
 Sky News Active iText Quad
@@ -1780,7 +1765,7 @@ Sky Active WML Browser
 p:BSkyB,c:031fff
 1f6a:011a0000:07ee:0002:130:0
 Vegas Blackjack
-p:BSkyB,c:031fff
+p:BSkyB
 1f82:011a0000:07ee:0002:130:0
 Super 6's
 p:BSkyB,c:031fff
@@ -1806,8 +1791,8 @@ p:BSkyB,c:031fff
 Sky Sports 2
 p:BSkyB,c:000203,c:010283,c:031ffe
 0f03:011a0000:07ef:0002:25:0
-3843
-p:BSkyB,c:000201,c:020241,c:030201,c:040295,c:050001
+More4 HD
+p:BSkyB,f:0001,c:000201,c:020241,c:030201,c:040295,c:050001
 0fa9:011a0000:07ef:0002:25:0
 Eurosport 2 HD
 p:BSkyB,f:0001,c:000200,c:010282,c:030200,c:050001
@@ -1829,9 +1814,6 @@ p:BSkyB,c:000200,c:030200,c:040294,c:050001
 0f27:011a0000:07f0:0002:135:0
 SBO HD1
 p:BSkyB,c:000203,c:020901,c:030203,c:040297,c:050001
-0fc2:011a0000:07f0:0002:25:0
-D HD
-p:BSkyB,c:000202,c:020242,c:030202,c:040296,c:050001
 102d:011a0000:07f0:0002:4:0
 Sky Box Office
 p:BSkyB
@@ -2266,7 +2248,7 @@ BBC 1 NI HD
 p:BSkyB,c:0014b4,c:0214b6,c:0314b4,c:0414b5,c:050001
 1b21:011a0000:0802:0002:25:0
 BBC HD
-p:BSkyB,f:0001,c:00157c,c:02157f,c:03157c,c:04157d,c:050001
+p:BSkyB,f:0001,c:001518,c:02151b,c:031518,c:04157d,c:050001
 2329:011a0000:0803:0002:1:0
 Disney Chnl
 p:BSkyB,c:00090c,c:01090d,c:02090f,c:03090c
@@ -2296,7 +2278,7 @@ p:BSkyB,c:000902,c:010903,c:020906,c:030902
 p:BSkyB
 1225:011a0000:0804:0002:1:0
 Sky News Arabia
-p:BSkyB,f:0001
+p:BSkyB,f:0001,c:000927,c:010928,c:030901
 1523:011a0000:0804:0002:130:0
 1381
 p:BSkyB,c:000c01,c:010c06,c:030901
@@ -2408,6 +2390,9 @@ p:BSkyB,c:000202,c:010282,c:020242,c:030202,c:050001
 0f33:011a0000:0807:0002:25:0
 TCM HD
 p:BSkyB,c:000200,c:020240,c:030200,c:040294,c:050001
+0f34:011a0000:0807:0002:25:0
+3892
+p:BSkyB
 0fbc:011a0000:0807:0002:25:0
 E! HD
 p:BSkyB,c:000201,c:030201,c:040294,c:050001
@@ -2457,7 +2442,7 @@ p:BSkyB,c:000911,c:010912,c:020914,c:030911
 BBC 1 Scot HD
 p:BSkyB,c:0013ec,c:0213ef,c:0313ec,c:0413ed,c:050001
 22cf:011a0000:080d:0002:25:0
-8911
+BBC 1 Wal HD
 p:BSkyB,c:001450,c:021453,c:031450,c:041451,c:050001
 50dc:011a0000:080f:0002:1:0
 ITV
@@ -2476,13 +2461,13 @@ ITV +1
 p:BSkyB,c:00090d,c:01090e,c:02090f,c:03090d
 512c:011a0000:080f:0002:25:0
 20780
-p:BSkyB,c:000910,c:030910,c:040911,c:050001
+p:BSkyB,c:000910,c:020913,c:030910,c:040911,c:050001
 52d0:011a0000:0814:0002:25:0
 Channel 4 HD
 p:BSkyB,c:000901,c:020905,c:030901,c:040902,c:050001
 5302:011a0000:0814:0002:1:0
 4seven
-p:BSkyB,c:00090c,c:02090e,c:03090c,c:040902
+p:BSkyB,c:00090c,c:01090d,c:02090e,c:03090c
 cb84:011a0000:08fd:0002:1:0
 Travel Ch +1
 p:BSkyB,c:000926,c:010927,c:030926
@@ -2670,7 +2655,7 @@ cd46:011a0000:0902:0002:1:0
 Bloomberg
 p:BSkyB,c:000904,c:010905,c:020906,c:030901
 cd5a:011a0000:0902:0002:1:0
-FRANCE 24
+FRANCE Eng
 p:BSkyB,c:00091b,c:01091e,c:03091b
 cd5f:011a0000:0902:0002:1:0
 TV5
@@ -2750,6 +2735,9 @@ p:BSkyB,c:00090b,c:03090b,c:04090c,c:050001
 cf9c:011a0000:0908:0002:25:0
 RT HD
 p:BSkyB,f:0001,c:00092c,c:03092c,c:04092d,c:050001
+cf9d:011a0000:0908:0002:25:0
+54068
+p:BSkyB,c:000930,c:030930,c:050001
 cfd0:011a0000:0909:0002:1:0
 E!
 p:BSkyB,c:000913,c:010914,c:030913
@@ -3300,7 +3288,7 @@ d32c:011a0000:0a29:0002:1:0
 KICC TV
 p:BSkyB,c:00090b,c:01090c,c:03090b
 d32d:011a0000:0a29:0002:1:0
-OHTV
+OH TV
 p:BSkyB,c:00092d,c:01092e,c:03092d
 d32f:011a0000:0a29:0002:1:0
 Peace TV
@@ -3311,14 +3299,11 @@ p:BSkyB,c:000909,c:01090a,c:030909
 d333:011a0000:0a29:0002:1:0
 Faith World TV
 p:BSkyB,c:000904,c:010905,c:030904
-d334:011a0000:0a29:0002:25:0
-54068
-p:BSkyB
 d336:011a0000:0a29:0002:1:0
 BEN
 p:BSkyB,c:000927,c:010928,c:030927
 d337:011a0000:0a29:0002:1:0
-Diverse
+ARISE Network
 p:BSkyB,c:00092a,c:01092b,c:03092a
 d355:011a0000:0a2a:0002:1:0
 LiveXXX Babes
@@ -3579,7 +3564,7 @@ d7c4:011a0000:0a35:0002:1:0
 holiday+cruise
 p:BSkyB,c:00091d,c:01091e,c:03091d
 d7c6:011a0000:0a35:0002:1:0
-Filth
+The Mall
 p:BSkyB,c:000920,c:010921,c:030920
 d7c7:011a0000:0a35:0002:1:0
 redhot mums
@@ -3623,9 +3608,12 @@ p:BSkyB,c:000938,c:010939,c:030938
 d7eb:011a0000:0a35:0002:1:0
 55275
 p:BSkyB
-d80e:011a0000:0a36:0002:1:0
-33510
-p:BSkyB
+d7ec:011a0000:0a35:0002:1:0
+55276
+p:BSkyB,c:000946,c:010947,c:030946
+d807:011a0000:0a36:0002:1:0
+55303
+p:BSkyB,c:000929,c:01092a,c:030929
 d822:011a0000:0a36:0002:1:0
 The Active Ch
 p:BSkyB,f:0001,c:000927,c:010928,c:030927
@@ -3866,6 +3854,9 @@ p:BSkyB
 2018:011a2f26:07e3:0002:130:0
 Highlight Videos
 p:BSkyB
+0001:011a31be:0001:ffff:1:0
+TV TRWAM TORUN
+p:TV TRWAM
 0001:011aad77:00b0:00b1:1:0
 SCOPUS-NET-TECH
 p:Scopus Network Technologies,c:000121,c:010122,c:030121
@@ -3982,6 +3973,9 @@ HBO 3
 p:CANALDIGITAAL
 17b8:00eb0000:0c82:0003:22:0
 Private Spice
+p:CANALDIGITAAL
+17b9:00eb0000:0c82:0003:22:0
+Private Spice CZ
 p:CANALDIGITAAL
 17c0:00eb0000:0c82:0003:25:0
 NED2 HD
@@ -4362,7 +4356,7 @@ p:CANALDIGITAAL
 Omroep Brabant Televisie
 p:CANALDIGITAAL
 5156:00eb0000:0c8b:0003:1:0
-Test1
+Sport1 (promo)
 p:CANALDIGITAAL
 5157:00eb0000:0c8b:0003:1:0
 Test2
@@ -4387,6 +4381,18 @@ Sky Radio
 p:canaldigitaal
 518a:00eb0000:0c8b:0003:2:0
 Classic FM
+p:canaldigitaal
+518c:00eb0000:0c8b:0003:2:0
+Radio 538
+p:canaldigitaal
+518e:00eb0000:0c8b:0003:2:0
+Radio 10 Gold
+p:canaldigitaal
+5190:00eb0000:0c8b:0003:2:0
+Slam FM
+p:canaldigitaal
+5192:00eb0000:0c8b:0003:2:0
+BNR Nieuwsradio
 p:canaldigitaal
 519a:00eb0000:0c8b:0003:2:0
 100% NL
@@ -4579,18 +4585,6 @@ Beat M
 p:Skylink
 3360:00eb0000:0c93:0003:1:0
 Eurosport 2
-p:Skylink
-3372:00eb0000:0c93:0003:12:0
-GoSat GS7055
-p:Skylink
-337b:00eb0000:0c93:0003:12:0
-Coship
-p:Skylink
-337d:00eb0000:0c93:0003:12:0
-Mascom MC250
-p:Skylink
-337f:00eb0000:0c93:0003:12:0
-OTA Mini Zebra
 p:Skylink
 3380:00eb0000:0c93:0003:12:0
 Vestel2
@@ -4880,18 +4874,24 @@ p:Harmonic
 0002:00ebad50:1000:2000:2:0
 Yemen FM
 p:Harmonic
-0001:00ebad99:0027:ffff:1:0
-MBC MASR FEED Main
-p:Nilesat
-0001:00ebb187:0001:ffff:1:0
-Betamobil SNG4
-p:Tandberg
-0001:00ebb18d:4321:00eb:1:0
-PZ SPD Berlin
-p:Betamobil D-128
-0001:00ebb1a7:00b0:00b1:1:0
-BETAMOBIL SNG2
-p:Scopus Network Technologies
+0001:00ebad8b:4321:00eb:22:0
+EBU BEL058
+p:EBU
+0064:00ebb176:0001:0001:2:0
+Antenne Tirol
+p:A1 Telekom Austria AG
+00c8:00ebb176:0001:0001:2:0
+Radio Oberland
+p:A1 Telekom Austria AG
+012c:00ebb176:0001:0001:2:0
+Radio Osttirol
+p:A1 Telekom Austria AG
+0190:00ebb176:0001:0001:2:0
+Radio POS
+p:A1 Telekom Austria AG
+01f4:00ebb176:0001:0001:2:0
+Oberland 2
+p:A1 Telekom Austria AG
 33a5:00c00000:03eb:0001:1:0
 ORF SPORT+
 p:ORF
@@ -6214,7 +6214,7 @@ FASHIONTV
 p:RRSat
 10d6:00c00000:0418:0001:1:0
 TV TRWAM
-p:TV TRWAM
+p:SES ASTRA
 10d7:00c00000:0418:0001:2:0
 Radio Maryja
 p:
@@ -6909,8 +6909,11 @@ p:CSAT
 INFOSPORT+
 p:CSAT
 2012:00c00000:0430:0001:1:0
-CHAINE EVENEMENT
-p:CSAT
+11856V SID 0x2012
+p:DVB-S QPSK 11856V 19.2°E
+2013:00c00000:0430:0001:1:0
+CANAL+
+p:IMEDIA
 201d:00c00000:0430:0001:1:0
 CANAL+
 p:CSAT
@@ -9803,6 +9806,9 @@ p:Cyfrowy Polsat S.A.
 1cd4:00820000:1ce8:0071:132:0
 Samsung2
 p:Cyfrowy Polsat S.A.
+1ce4:00820000:1ce8:0071:132:0
+HD3000 NP
+p:
 1ce5:00820000:1ce8:0071:132:0
 HD6000
 p:
@@ -9851,9 +9857,6 @@ p:Cyfrowy Polsat S.A
 0c2f:00820000:1e78:0071:1:0
 History HD
 p:Cyfrowy Polsat S.A.
-0c30:00820000:1e78:0071:1:0
-Crime + Investigation
-p:TP,f:0001
 0016:00820000:1edc:0071:100:0
 12284H SID 0x16
 p:DVB-S QPSK 12284H 13.0°E
@@ -9974,6 +9977,9 @@ p:Cyfrowy Polsat
 2954:00820000:1edc:0071:1:0
 Blue Hustler
 p:Cyfrowy Polsat S.A.,f:0001
+2955:00820000:1edc:0071:1:0
+PPV: Golota-Saleta
+p:Cyfrowy Polsat S.A.
 295f:00820000:1edc:0071:132:0
 SAMSUNG370
 p:Cyfrowy Polsat S.A.
@@ -10077,7 +10083,7 @@ p:SNRT
 Houceima
 p:SNRT
 0046:00820000:2e18:00b0:2:0
-Test-1
+Tetouan
 p:
 0050:00820000:2e18:00b0:2:0
 Test-2
@@ -10183,9 +10189,6 @@ R.ONDA D'URTO
 p:M-Three satcom
 0e3e:00820000:0708:00c8:2:0
 R101
-p:M-Three satcom
-0e40:00820000:0708:00c8:2:0
-RADIO KOLBE
 p:M-Three satcom
 0e42:00820000:0708:00c8:2:0
 DISCORADIO
@@ -10312,7 +10315,7 @@ ESP Serbia
 p:Eutelsat
 3615:00820000:00c8:013e:1:0
 ESP Turk
-p:EUROSPORT
+p:Eutelsat
 3616:00820000:00c8:013e:1:0
 ESP2 German
 p:Eutelsat
@@ -10380,7 +10383,7 @@ p:Eutelsat
 ESP2 NE Dutch
 p:Eutelsat
 366a:00820000:00c8:013e:1:0
-Bergamosat
+Bergamo TV
 p:Eutelsat
 366b:00820000:00c8:013e:1:0
 DMAX
@@ -10429,6 +10432,9 @@ Eurosport 2 HD PL-HU-RO
 p:ITI
 3bb5:00820000:012c:013e:1:0
 Nat Geo Wild HD PL
+p:ITI
+3bbd:00820000:012c:013e:1:0
+Eurosport 2 HD UPC
 p:ITI
 32dc:00820000:0190:013e:1:0
 CANAL+ HD
@@ -10491,7 +10497,7 @@ p:CYFRA +
 ESP HD Romania
 p:CYFRA +
 3313:00820000:0190:013e:1:0
-ESP HD ECH
+ESP HD UPC
 p:CYFRA +
 3314:00820000:0190:013e:1:0
 ESP HD Spain
@@ -10589,6 +10595,12 @@ p:Arqiva
 44fc:00820000:0258:013e:1:0
 Pars TV
 p:Harmonic
+4506:00820000:0258:013e:1:0
+Elite Shopping
+p:Arqiva
+4507:00820000:0258:013e:1:0
+Liguria TV
+p:Arqiva
 451b:00820000:0258:013e:1:0
 Il Sole
 p:Arqiva
@@ -10688,15 +10700,6 @@ p:CYFRA+
 379f:00820000:044c:013e:25:0
 ALE KINO+ HD
 p:CYFRA+
-37a8:00820000:044c:013e:1:0
-11411H SID 0x37a8
-p:DVB-S2 8PSK 11411H 13.0°E
-37a9:00820000:044c:013e:1:0
-11411H SID 0x37a9
-p:DVB-S2 8PSK 11411H 13.0°E
-37aa:00820000:044c:013e:1:0
-11411H SID 0x37aa
-p:DVB-S2 8PSK 11411H 13.0°E
 37c8:00820000:044c:013e:2:0
 11411H SID 0x37c8
 p:DVB-S2 8PSK 11411H 13.0°E
@@ -10988,6 +10991,9 @@ p:Du
 252c:00820000:13ef:013e:1:0
 Sky News Arabia
 p:Du
+252d:00820000:13ef:013e:1:0
+AL GHAD AL ARABY
+p:du
 2530:00820000:13ef:013e:2:0
 Noor Dubai Radio
 p:Du
@@ -11301,7 +11307,7 @@ p:Telespazio
 BETHEL TV
 p:Telespazio
 02d2:00820000:1b58:013e:1:0
-Truth TV
+Pearl TV
 p:Telespazio
 02d3:00820000:1b58:013e:1:0
 S.NEU JERUSALEM
@@ -11427,8 +11433,8 @@ p:M-Three satcom
 People TV-Rete 7
 p:People TV-Rete 7
 1c59:00820000:1c20:013e:1:0
-CNC-001
-p:Service Provider
+CNC-002
+p:TandbergTV
 1c5b:00820000:1c20:013e:1:0
 Bahrain International
 p:Bahrain TV
@@ -11484,10 +11490,10 @@ p:NetMed
 novasports2
 p:NetMed
 0162:00820000:1c84:013e:1:0
-nova Christmas
+nova STARS
 p:NetMed
 0163:00820000:1c84:013e:1:0
-nova Christmas Cy
+nova STARS Cy
 p:NetMed
 0164:00820000:1c84:013e:1:0
 R15
@@ -11675,6 +11681,9 @@ p:GlobeCast
 446b:00820000:1f40:013e:1:0
 BABY TV
 p:GlobeCast
+4479:00820000:1f40:013e:1:0
+TCM HD
+p:Globecast
 447a:00820000:1f40:013e:1:0
 DISNEY HD
 p:Globecast
@@ -11686,6 +11695,9 @@ RIT-TV
 p:RIT
 00d1:00820000:1fa4:013e:1:0
 90 numeri sat
+p:M-Three satcom
+00d7:00820000:1fa4:013e:1:0
+NOELLO SAT
 p:M-Three satcom
 364c:00820000:1fa4:013e:1:0
 Dorcel TV
@@ -11793,7 +11805,7 @@ p:GlobeCast
 Dmitsi Hafash
 p:GlobeCast
 0c08:00820000:20d0:013e:2:0
-Radio Nawa Arabic
+Radio Goran
 p:GlobeCast
 0c0b:00820000:20d0:013e:2:0
 Emirates FM
@@ -11857,6 +11869,9 @@ Supertennis HD
 p:GlobeCast
 07d7:00820000:22c4:013e:1:0
 KBS World HD
+p:GlobeCast
+07d8:00820000:22c4:013e:1:0
+Rudaw Media Network
 p:GlobeCast
 07e4:00820000:22c4:013e:1:0
 GC Test 1
@@ -12034,6 +12049,9 @@ p:GlobeCast
 p:Harmonic
 2011:00820000:24b8:013e:1:0
 CNNi
+p:GlobeCast
+2012:00820000:24b8:013e:1:0
+Ahl E Bait TV
 p:GlobeCast
 2013:00820000:24b8:013e:1:0
 Euronews
@@ -12239,9 +12257,6 @@ p:Arqiva
 1247:00820000:2b5c:013e:1:0
 ESTV
 p:Arqiva
-1248:00820000:2b5c:013e:1:0
-LL TV Channel
-p:Arqiva
 1251:00820000:2b5c:013e:1:0
 Private Spice
 p:Arqiva
@@ -12324,11 +12339,11 @@ p:Cyfrowy Polsat S.A.
 CBS Action
 p:Cyfrowy Polsat S. A.
 4283:00820000:2bc0:013e:1:0
-10758V SID 0x4283
-p:DVB-S2 8PSK 10758V 13.0°E
-4284:00820000:2bc0:013e:100:0
-10758V SID 0x4284
-p:DVB-S2 8PSK 10758V 13.0°E
+Crime and Investigation
+p:Cyfrowy Polsat S.A.,f:0001
+4284:00820000:2bc0:013e:1:0
+Wedding TV
+p:Cyfrowy Polsat S.A.
 42cd:00820000:2bc0:013e:2:0
 TestR1
 p:
@@ -12696,7 +12711,7 @@ p:Cyfrowy Polsat S.A.
 Testc
 p:Cyfrowy Polsat S.A.
 3e21:00820000:2ee0:013e:1:0
-Test5
+PPV HD: Golota-Saleta
 p:Cyfrowy Polsat S.A.
 3e22:00820000:2ee0:013e:1:0
 Test6
@@ -13106,6 +13121,9 @@ p:Harmonic
 4464:00820000:3264:013e:1:0
 MCM POP
 p:Harmonic
+4465:00820000:3264:013e:1:0
+MCM TOP
+p:Harmonic
 4466:00820000:3264:013e:1:0
 ESPN CLASSIC
 p:Harmonic
@@ -13207,9 +13225,6 @@ Radio Jeans
 p:Arqiva
 1cab:00820000:332c:013e:2:0
 Radio Expert
-p:Arqiva
-1cac:00820000:332c:013e:1:0
-Elite Shopping
 p:Arqiva
 1cad:00820000:332c:013e:1:0
 Fadak TV
@@ -13372,7 +13387,7 @@ JCTV
 p:TandbergTV
 0326:00820000:3bc4:013e:1:0
 EL SHAFAA
-p:OVERON
+p:Unnamed
 0327:00820000:3bc4:013e:1:0
 TBN Russia
 p:Overon
@@ -13381,9 +13396,9 @@ Smile of a Child
 p:TandbergTV
 0329:00820000:3bc4:013e:1:0
 NEJAT TV
-p:OVERON
+p:TBNFARSI
 032a:00820000:3bc4:013e:1:0
-IFILM
+IFILMEN
 p:Service Provider
 032d:00820000:3bc4:013e:1:0
 ChildRussia
@@ -13414,7 +13429,7 @@ Loveworld TV
 p:GlobeCast
 34be:00820000:3c28:013e:1:0
 Fashion One
-p:GLOBECAST ASIA
+p:GlobeCast Asia
 34c0:00820000:3c28:013e:1:0
 DAYSTAR TV
 p:GlobeCast
@@ -13449,7 +13464,7 @@ p:GlobeCast
 1+1 International
 p:GlobeCast
 34d3:00820000:3c28:013e:1:0
-Ahl E Bhait
+Ahl Al Bhait
 p:GlobeCast
 34d4:00820000:3c28:013e:1:0
 TISHK TV
@@ -13518,7 +13533,7 @@ p:MEDIA BROADCAST
 MB SmartCast Test 2
 p:MEDIA BROADCAST
 0274:00820000:3c8c:013e:1:0
-ELITE SHOPPING
+LOMBARDIA SAT
 p:MEDIA BROADCAST
 0275:00820000:3c8c:013e:1:0
 KLIKSAT.farhad
@@ -13585,9 +13600,6 @@ TV_ROMANIA
 p:
 29d4:00820000:3cf0:013e:1:0
 Carisma_TV
-p:GlobeCast
-29d5:00820000:3cf0:013e:1:0
-KBS_WORLD
 p:GlobeCast
 29d6:00820000:3cf0:013e:1:0
 El Chourouk
@@ -13711,6 +13723,9 @@ Nawa Kurdish Radio
 p:BSS
 298f:00820000:3d54:013e:2:0
 Nawa Arabic Radio
+p:BSS
+2994:00820000:3d54:013e:1:0
+Wedding TV
 p:BSS
 2995:00820000:3d54:013e:1:0
 Kurd Channel
@@ -13853,6 +13868,9 @@ p:Telespazio
 4238:00820000:3db8:013e:1:0
 Didar Global Tv
 p:Telespazio
+423a:00820000:3db8:013e:1:0
+Pearl Tv
+p:Harmonic
 2461:00820000:23f0:013f:1:0
 Pharaohs 2
 p:Telespazio
@@ -13966,9 +13984,6 @@ Trace Sport SD
 p:Eutelsat
 01f6:00820000:26ac:013f:1:0
 TV8 Mont Blanc
-p:Eutelsat
-01f7:00820000:26ac:013f:1:0
-M6 SD
 p:Eutelsat
 01f8:00820000:26ac:013f:1:0
 Game ONE
@@ -15701,9 +15716,18 @@ p:DVB-S QPSK 10853H 13.0°E
 1002:00820000:2db4:fbff:131:0
 IEPG Data
 p:SkyItalia
-0001:00822c6d:0001:ffff:1:0
-Test-
-p:TandbergTV
+006f:00822c6d:007b:0001:1:0
+test1
+p:
+00de:00822c6d:007b:0001:1:0
+test2
+p:
+014d:00822c6d:007b:0001:1:0
+test3
+p:
+01bc:00822c6d:007b:0001:1:0
+test4
+p:
 0005:0082acce:0578:013e:1:0
 Kahkeshan TV
 p:Harmonic
@@ -16122,4 +16146,4 @@ p:
 DOS TV  340
 p:
 end
-Editor:DreamSet 2.37 - http://www.dreamset-editor.com
+Editor:DreamSet 2.38 - http://www.dreamset-editor.com
